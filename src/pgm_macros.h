@@ -54,7 +54,6 @@
 #define next_float(rng) \
     (((rng)->next_uint32((rng)->bitgen_state) >> 8) * (1.0f /  16777216.0f))
 
-
 /*
  * Generate a random double precision float in the range [0, 1). This macros is
  * adapted from a private <numpy/random/distributions.h> function of a similar name
